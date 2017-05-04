@@ -25,7 +25,7 @@ public class TestTimeTable {
     }
 
     @Test
-    public void test01()  throws Throwable  {
+    public void TimeTableTest1()  throws Throwable  {
         //import Time to be used to get dates
         TimeTable Time = new TimeTable();
         //import the appt linked list
@@ -41,7 +41,7 @@ public class TestTimeTable {
     }
 
     @Test
-    public void test06()  throws Throwable  {
+    public void TimeTableTest2()  throws Throwable  {
         //import timetable as time
         TimeTable Time = new TimeTable();
         //import gregorian with two dates
@@ -65,7 +65,7 @@ public class TestTimeTable {
     }
 
     @Test
-    public void test08()  throws Throwable  {
+    public void TimeTableTest3()  throws Throwable  {
         //import timetable as time
         TimeTable Time = new TimeTable();
         //create first day
@@ -90,7 +90,7 @@ public class TestTimeTable {
 
 
     @Test
-    public void test04()  throws Throwable  {
+    public void TimeTableTest4()  throws Throwable  {
         //import timetable as time
         TimeTable Time = new TimeTable();
         //import gregorian calander and dates
